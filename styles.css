@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container-margin {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+.banner {
+  height: 100vh;
+  background-color: #782849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.banner-title {
+  font-size: 4rem;
+}
+.banner-subtitle {
+  text-align: center;
+  font-size: 3rem;
+}
+.social-div {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin-top: 16px;
+}
+.social-icons {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.display-picture {
+  width: 185px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.displayText {
+  color: black;
+}
+.skills-card {
+  margin-top: 2rem;
+}
+.skills-card-body {
+  min-height: 340px;
+  padding: 20px;
+}
+.skills-icon {
+  width: 60px;
+}
+.skills-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.journey-class {
+  width: inherit;
+}
+.project-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.projects-image {
+  width: 350px;
+  margin: 0px 20px;
+}
+.footer {
+  background-color: #782849;
+  height: 50px;
+  margin-top: 4rem;
+}
+.hobbies-section {
+  margin-top: 2rem;
+}
+.bold {
+  font-weight: 600;
+}
