@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .container-margin {
   margin-right: 4rem;
@@ -7,7 +7,7 @@ body {
 }
 .linksClass {
   color: white !important;
-  font-size: 1.5rem !important;
+  font-size: 1rem !important;
 }
 .linksClass:hover {
   color: white !important;
@@ -17,13 +17,14 @@ body {
   height: 100vh;
   background-color: #782849;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .banner-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   color: white;
 }
 .banner-title {
@@ -104,6 +105,9 @@ body {
 }
 .photography-text {
   margin: 0px 16px 0px 0px;
+}
+.margin-top-16 {
+  margin-top: 16px;
 }
 .footer {
   background-color: #782849;
