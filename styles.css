@@ -77,6 +77,7 @@ body {
 .heading {
   font-size: 3rem;
   font-weight: 600;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -84,14 +85,25 @@ body {
   width: inherit;
 }
 .project-class {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 2rem;
 }
+.project-col {
+  align-content: center;
+}
 .projects-image {
-  width: 400px;
+  width: 100%;
   margin: 0px 20px;
+}
+.width100 {
+  width: 100%;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photography-text {
+  margin: 0px 16px 0px 0px;
 }
 .footer {
   background-color: #782849;
@@ -103,4 +115,7 @@ body {
 }
 .bold {
   font-weight: 600;
+}
+.down-icon {
+  margin-top: 20px;
 }
