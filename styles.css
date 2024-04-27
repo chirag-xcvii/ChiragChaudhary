@@ -6,11 +6,11 @@ body {
   margin-left: 4rem;
 }
 .linksClass {
-  color: white;
-  font-size: 1.5rem;
+  color: white !important;
+  font-size: 1.5rem !important;
 }
 .linksClass:hover {
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 .banner {
