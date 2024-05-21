@@ -1,77 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chirag Chaudhary</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        .banner {
-            text-align: center;
-            padding: 2rem 1rem;
-            background-color: #800080;
-            color: #ffffff;
+      .banner {
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+      .banner-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      .social-icons {
+        margin: 0 0.5rem;
+        font-size: 1.5rem;
+      }
+      .linksClass {
+        display: inline-block;
+        margin: 0 1rem;
+      }
+      .down-icon {
+        font-size: 2rem;
+        margin-top: 1rem;
+      }
+      .container-margin {
+        padding: 2rem 1rem;
+      }
+      .heading {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      .display-picture {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+      .displayText {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .journey-class, .projects-image {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      .skills-card {
+        margin-bottom: 2rem;
+      }
+      .skills-card-body {
+        text-align: center;
+      }
+      .skills-icon {
+        width: 40px;
+        margin: 0.5rem;
+      }
+      .skills-heading {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .project-class {
+        margin-bottom: 2rem;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .width100 {
+        width: 100%;
+      }
+      .margin-top-16 {
+        margin-top: 16px;
+      }
+      .flexCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .container-margin {
+          padding: 1rem 0.5rem;
+          margin: 0;
         }
         .banner-title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        .social-icons {
-            margin: 0 0.5rem;
-            font-size: 1.5rem;
-            color: #ffffff;
+          font-size: 2rem;
         }
         .linksClass {
-            display: inline-block;
-            margin: 0 1rem;
+          display: block;
+          margin: 0.5rem 0;
         }
         .down-icon {
-            font-size: 2rem;
-            margin-top: 1rem;
+          font-size: 1.5rem;
         }
+        .skills-card-body p {
+          font-size: 0.9rem;
+        }
+        .displayText {
+          padding: 0 0.5rem;
+          text-align: left;
+        }
+        .banner, .container {
+          padding: 0;
+          margin: 0;
+        }
+      }
+      @media (max-width: 576px) {
         .container-margin {
-            padding: 2rem 1rem;
+          padding: 0.5rem;
+          margin: 0;
         }
-        .heading {
-            font-size: 2rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
+        .banner-title {
+          font-size: 1.5rem;
         }
-        @media (max-width: 768px) {
-            .container-margin {
-                padding: 1rem 0.5rem;
-                margin: 0;
-            }
-            .banner-title {
-                font-size: 2rem;
-            }
-            .linksClass {
-                display: block;
-                margin: 0.5rem 0;
-            }
-            .down-icon {
-                font-size: 1.5rem;
-            }
+        .down-icon {
+          font-size: 1.2rem;
         }
-        @media (max-width: 576px) {
-            .container-margin {
-                padding: 0.5rem;
-                margin: 0;
-            }
-            .banner-title {
-                font-size: 1.5rem;
-            }
-            .down-icon {
-                font-size: 1.2rem;
-            }
+        .skills-heading {
+          font-size: 1rem;
         }
+        .skills-icon {
+          width: 30px;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Banner Section -->
     <section class="banner">
       <div class="banner-content">
@@ -145,7 +208,7 @@
           </div>
         </div>
       </section>
-      <!-- Experience Section -->
+        <!-- Experience Section -->
       <section class="container">
         <heading id="experience" class="heading">Experience</heading>
         <ul>
@@ -254,4 +317,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
 
