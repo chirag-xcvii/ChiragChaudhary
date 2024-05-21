@@ -10,11 +10,105 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .banner {
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+      .banner-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      .social-icons {
+        margin: 0 0.5rem;
+        font-size: 1.5rem;
+      }
+      .linksClass {
+        display: inline-block;
+        margin: 0 1rem;
+      }
+      .down-icon {
+        font-size: 2rem;
+        margin-top: 1rem;
+      }
+      .container-margin {
+        padding: 2rem 1rem;
+      }
+      .heading {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      .display-picture {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+      .displayText {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .journey-class, .projects-image {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      .skills-card {
+        margin-bottom: 2rem;
+      }
+      .skills-card-body {
+        text-align: center;
+      }
+      .skills-icon {
+        width: 40px;
+        margin: 0.5rem;
+      }
+      .skills-heading {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .project-class {
+        margin-bottom: 2rem;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .width100 {
+        width: 100%;
+      }
+      .margin-top-16 {
+        margin-top: 16px;
+      }
+      .flexCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .banner-title {
+          font-size: 2rem;
+        }
+        .linksClass {
+          display: block;
+          margin: 0.5rem 0;
+        }
+        .down-icon {
+          font-size: 1.5rem;
+        }
+        .skills-card-body p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Banner Section -->
     <section class="banner">
-      <div class="banner-content"><h1 class="banner-title">Chirag Chaudhary</h1>
+      <div class="banner-content">
+        <h1 class="banner-title">Chirag Chaudhary</h1>
         <div class="social-div">
           <a href="mailto:chirag.c.tlp23@plaksha.edu.in" target="_blank"><i class="fa-regular fa-envelope social-icons"></i></a>
           <a href="https://www.linkedin.com/in/chirag-c-349025123/" target="_blank"><i class="fa-brands linkedInClass fa-linkedin-in social-icons"></i></a>
@@ -29,7 +123,7 @@
       </div>
     </section>
     <div class="container-margin">
-      <!-- Cards Section -->
+      <!-- About Section -->
       <section>
         <heading id="about" class="heading">About</heading>
         <div class="banner-content">
@@ -39,12 +133,12 @@
           <p class="displayText">From a Statistics Major at Sri Venkateswara College, Delhi University, to venturing into entrepreneurship by successfully selling over 10,000 units on Amazon, and later delving into the world of Venture Capitalism. Transitioning to the other side of the spectrum by joining a startup as part of the Founder’s Office, I played a pivotal role in shaping Wizikey in the PR SaaS Industry. Now, I am fully immersed in the complexities of utilizing the data, statistical insights, and machine learning algorithms to derive meaningful conclusions. Sounds like a whirlwind, doesn't it? But every twist and turn has been a valuable part of my unique journey. Interested in working together or having a chat? How about we meet for coffee and bounce around some ideas?</p>
         </div>
       </section>
-      <!-- Cards Section -->
+      <!-- Skills Section -->
       <section class="container">
-        <img class="journey-class" src="./assets/Journey.jpg"></img>
+        <img class="journey-class" src="./assets/Journey.jpg">
         <div class="row">
           <div class="col-md-4">
-            <div class="skills-card card mb-4">
+            <div class="skills-card card">
               <div class="skills-card-body">
                 <div class="social-div">
                   <img class="skills-icon" src="./assets/bar-chart.png">
@@ -57,7 +151,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="skills-card card mb-4">
+            <div class="skills-card card">
               <div class="skills-card-body">
                 <div class="social-div">
                   <img class="skills-icon" src="./assets/analytic-graph.png">
@@ -70,7 +164,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="skills-card card mb-4">
+            <div class="skills-card card">
               <div class="skills-card-body">
                 <div class="social-div">
                   <img class="skills-icon" src="./assets/aws.png">
@@ -88,14 +182,14 @@
       <section class="container">
         <heading id="experience" class="heading">Experience</heading>
         <ul>
-            <p class="skills-heading">Wizikey - Founder's Office - Growth (May 2021 - Jul 2023)</p>
+          <p class="skills-heading">Wizikey - Founder's Office - Growth (May 2021 - Jul 2023)</p>
           <li>Media Measurement & Intelligence to help businesses build better and faster brand awareness across the world.</li>
           <li>Engineered and managed an Email Marketing engine that consistently generated over 70 B2B leads per quarter, fueling sustained sales growth.</li>
           <li>Collaborated with engineering to develop product features based on customer insights gathered through interviews, enhancing user satisfaction and market relevance.</li>
           <li>Developed and maintained a comprehensive MIS to quantify and track product, marketing, sales, and hiring metrics, enabling data-driven decision-making.</li>
           <li>Worked closely with founders on financial forecasting and departmental target setting, ensuring alignment with business objectives.</li>
           <li>Produced investor materials including pitch decks, financial models, and competitive research documents to support successful fundraising efforts.</li>
-            <p class="skills-heading">World V Fund - Research Analyst (Mar 2020 - Mar 2021)</p>
+          <p class="skills-heading">World V Fund - Research Analyst (Mar 2020 - Mar 2021)</p>
           <li>World V is a ₹100 Cr. sector agnostic deep-tech fund investing in start ups for pre-series/series A Investment</li>
           <li>Conducted 100+ interviews with founders, gaining insights into their vision, market approach, and execution strategies.</li>
           <li>Researched and analyzed key industries such as SaaS, Healthcare Wearables, Personal Wealth Management, and Predictive Diagnosis, identifying trends, competitive landscapes, and growth opportunities.</li>
@@ -107,12 +201,11 @@
       <section class="container">
         <heading id="education" class="heading">Education</heading>
         <ul>
-            <p class="skills-heading">Plaksha University, Tech Leaders Fellowship (TLF)</p>
+          <p class="skills-heading">Plaksha University, Tech Leaders Fellowship (TLF)</p>
           <li>TLF is an intensive one-year, post-graduate, residential program, conducted in collaboration with UC Berkeley. It offers a unique blend of artificial intelligence and machine learning education along with practical, real-world implementation. The curriculum also delves into crucial areas such as design thinking, leadership skills, and product management, ensuring a well-rounded educational experience.</li>
         </ul>
         <ul>
-            <p class="skills-heading">Sri Venkateswara College, B.Sc. (H) Statistics</p>
-          </li>
+          <p class="skills-heading">Sri Venkateswara College, B.Sc. (H) Statistics</p>
           <li>Modules Studied: Calculus and Algebra, Probability, Statistical Inference, Linear Regression, Hypothesis Testing, Linear Models, and Econometrics to name a few.</li>
         </ul>
       </section>
@@ -120,12 +213,13 @@
       <section class="container">
         <heading id="projects" class="heading">Projects</heading>
         <div class="row project-class">
-<div class="col-md-6 col-sm-12">       <img class="projects-image" src="./assets/Patient-Doctor Conversation to Reports.jpg"></img></div>   
-          <div class="col-md-6  col-sm-12 project-col">
+          <div class="col-md-6 col-sm-12">
+            <img class="projects-image" src="./assets/Patient-Doctor Conversation to Reports.jpg">
+          </div>
+          <div class="col-md-6 col-sm-12 project-col">
             <p><span class="bold">Patient-Doctor Conversation to Reports:</span> This solution streamlines hospital operations with audio-based admission notes, tackling communication gaps, administrative burdens, and data disorganization for enhanced patient care.</p>
             <button type="button" onclick="window.open('https://drive.google.com/file/d/1znn8TPWYnbd9bgPmPpljfTM0yQS0ZoeY/view?usp=drive_link', '_blank')" class="btn btn-outline-dark">Report</button>
             <button type="button" onclick="window.open('https://github.com/chirag-xcvii/Healthcare-Conversation-To-Docs', '_blank')" class="btn btn-outline-dark">Github</button>
-
           </div>
         </div>
         <div class="row project-class">
@@ -133,63 +227,66 @@
             <p><span class="bold">Venture Capital-focused Chatbot:</span> Simplifies venture capital concepts for younger professionals along with the updated data of the Indian startup ecosystem. With multi-agent perspectives, document-based knowledge from PDFs and CSVs, and conversational retrieval, it offers tailored explanations and comprehensive insights into the industry.</p>
             <button type="button" onclick="window.open('https://drive.google.com/file/d/1Xi8ENSuJk2kFTIgQm5ZCTbrw78IBPixZ/view?usp=drive_link', '_blank')" class="btn btn-outline-dark">Report</button>
             <button type="button" onclick="window.open('https://github.com/chirag-xcvii/VCExplorer-Chatbot', '_blank')" class="btn btn-outline-dark">Github</button>
-
           </div>
           <div class="col-md-6 col-sm-12">
-          <img class="projects-image" src="./assets/Venture Capital-focused Chatbot.gif"></img></div>
+            <img class="projects-image" src="./assets/Venture Capital-focused Chatbot.gif">
+          </div>
         </div>
-        <div class="row project-class ">
+        <div class="row project-class">
           <div class="col-md-6 col-sm-12">
-          <img class="projects-image" src="./assets/ECG Wave Detection & Anomaly Detection.jpg"></img></div>
+            <img class="projects-image" src="./assets/ECG Wave Detection & Anomaly Detection.jpg">
+          </div>
           <div class="col-md-6 col-sm-12 project-col">
             <p><span class="bold">ECG Wave Detection & Anomaly Detection:</span> Addressing ECG machine warranty risks with IoT interfaces, our project instead leverages computer vision to extract vital signs data and detect abnormalities in the heart rhythm, enhancing healthcare efficiency.</p>
             <button type="button" onclick="window.open('https://drive.google.com/file/d/1bpv_1A6Gg-7ODVbMiHAbJr7xsZX-078U/view?usp=drive_link', '_blank')" class="btn btn-outline-dark">Report</button>
             <button type="button" onclick="window.open('https://github.com/chirag-xcvii/ECG-Wave-Detection-Anomaly-Detection', '_blank')" class="btn btn-outline-dark">Github</button>
-
           </div>
         </div>
         <div class="row project-class">
           <div class="col-md-6 col-sm-12 project-col">
             <p><span class="bold">Entrance Exam Dataset EDA:</span> This project involves exploratory data analysis (EDA), analysis, and regression tasks on a dataset related to college entrance exam scores.</p>
             <button type="button" onclick="window.open('https://github.com/chirag-xcvii/Entrance-Exam-EDA', '_blank')" class="btn btn-outline-dark">Github</button>
-
           </div>
           <div class="col-md-6 col-sm-12">
-          <img class="projects-image" src="./assets/Entrance Exam Dataset EDA.jpg"></img></div>
+            <img class="projects-image" src="./assets/Entrance Exam Dataset EDA.jpg">
+          </div>
         </div>
         <div class="row project-class">
           <div class="col-md-6 col-sm-12">
-          <img class="projects-image" src="./assets/Cyber Security Malware Detection for PDFs.jpg"></img></div>
+            <img class="projects-image" src="./assets/Cyber Security Malware Detection for PDFs.jpg">
+          </div>
           <div class="col-md-6 col-sm-12 project-col">
             <p><span class="bold">Cyber Security Malware Detection for PDFs:</span> Developing a machine learning model to classify files as benign or malicious, leveraging metadata, static properties, signatures, and more for enhanced cybersecurity.</p>
             <button type="button" onclick="window.open('https://drive.google.com/file/d/1tLu3IXM0hVclFsnhwvtrc5XuaDntjSaj/view?usp=drive_link', '_blank')" class="btn btn-outline-dark">Report</button>
             <button type="button" onclick="window.open('https://github.com/chirag-xcvii/CyberSec-Malware-Detection', '_blank')" class="btn btn-outline-dark">Github</button>
-
           </div>
         </div>
       </section>
       <!-- Hobbies Section -->
       <section class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-12">         <heading id="hobbies" class="heading">Hobbies</heading>
-            <img class= "width100" src="./assets/photographyDisplay.png"></img>
-            <p class="margin-top-16"> Apart from data and technology, my hobbies include Astrophotography, Solving Types of Rubik's Cubes and Brewing Coffee</p>
+          <div class="col-md-6 col-sm-12">
+            <heading id="hobbies" class="heading">Hobbies</heading>
+            <img class="width100" src="./assets/photographyDisplay.png">
+            <p class="margin-top-16">Apart from data and technology, my hobbies include Astrophotography, Solving Types of Rubik's Cubes and Brewing Coffee</p>
             <div class="flexCenter">
-                  <p class="photography-text">Photography:</p>
-                        <button type="button" class="btn btn-outline-dark" onclick="window.open('https://vsco.co/chiragchaudhary/gallery', '_blank')">Check it out</button></div>
-                  </div>
+              <p class="photography-text">Photography:</p>
+              <button type="button" class="btn btn-outline-dark" onclick="window.open('https://vsco.co/chiragchaudhary/gallery', '_blank')">Check it out</button>
+            </div>
+          </div>
           <div class="col-md-6 col-sm-12">
             <heading id="resume" class="heading">Resume</heading>
-            <div class="flexCenter"> 
-                <button type="submit" class="btn btn-outline-dark" onclick="window.open('./assets/Chirag Chaudhary - Resume.pdf')">Download!</button>
+            <div class="flexCenter">
+              <button type="submit" class="btn btn-outline-dark" onclick="window.open('./assets/Chirag Chaudhary - Resume.pdf')">Download!</button>
             </div>
-    </div>
+          </div>
+        </div>
       </section>
-      </div>
-      <div class="footer"></div>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      <script src="script.js"></script>
-    </body>
-  </html>
+    </div>
+    <div class="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
